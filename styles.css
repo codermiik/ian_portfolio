@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+    background:rgb(40, 40, 43);
+    align-items: center;
+}
+.main{
+    max-width: 1170px;
+}
+.navs p{
+    color:	rgb(32,178,170);
+    font-size: 20px;
+    font-weight: bold;
+}
+.navs .big{
+    font-size: 30px;
+     
+}
+.navs ul,li{
+    list-style: none;
+}
+.navs a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    margin-right:10px ;
+}
+.navs a:hover{
+ color:lightseagreen;
+}
+.navbar-toggler{
+    color:white;
+}
+h1,h2,h3,h4{
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+    
+}
+p{
+    color:white;
+    font-size: 17px;
+}
+.social-links a{
+    color:white;
+    font-size: 27px;
+    padding: 3px;
+}
+.social-links a:hover{
+    color: aqua;
+}
+.footer{
+    background-color:rgb(54, 69, 79);
+    height: 88px;
+}
+/*----home section stylings----*/
+
+    
+/*----projects section stylings----*/
+#projects .project-box{
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    height: 480px;
+    margin-top: 5px;
+   
+}
+
+
+#projects .project-box img{
+    width: 280px;
+    height: 250px;
+    padding: 21px;
+    border-radius: 30px;
+}
+#projects .project-box h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+#projects .project-box p{
+    color:rgb(192, 192, 192);
+    padding: 8px;
+    font-size: 17px;
+  
+}
+#projects .project-box a{
+   text-decoration: none;
+   font-size: 20px;
+   padding: 10px;
+}
+
+/*----about-me section stylings----*/
+
+#about-me .big{
+    font-weight: bold;
+    color: white;
+    
+}
+#about-me .skill{
+    font-size: 15px;
+    background: gray;
+    border-radius: 5px;
+    margin-left: 10px;
+    color:purple;
+    font-weight:bold;
+    padding: 6px;
+    
+}
+
