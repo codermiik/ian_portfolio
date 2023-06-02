@@ -7,6 +7,47 @@ body{
     background:rgb(40, 40, 43);
     align-items: center;
 }
+.dark .navbar-toggler{
+    color: black;
+}
+.dark {
+    color: black;
+    background-color: white;
+ }
+.dark p{
+    color: black;
+ }
+ .dark h1,h4{
+    color: black;
+ }
+ .dark ul li a{
+    color: black
+ }
+ .dark dl h4{
+    color: black;
+ }
+.dark dl h6{
+    color:	rgb(32,178,170);
+}
+.dark .social-links h2{
+    color: black;
+}
+.dark #about-me h2{
+    color:	rgb(32,178,170);
+}
+.dark  #about-me .social-links a{
+    color: black;
+}
+.dark .project-box h2{
+    color:	rgb(32,178,170);
+}
+.dark .projects h4{
+    color: black;
+}
+.dark .projects h1{
+    color:	rgb(32,178,170); 
+}
+
 .main{
     max-width: 1170px;
 }
@@ -35,15 +76,26 @@ body{
 .navbar-toggler{
     color:white;
 }
-h1,h2,h3,h4{
-    font-size: 25px;
+h1{
+    font-size: 30px;
     color:white;
     font-weight: bold;
     
 }
+h6{
+    font-size: 15px;
+    color:white;
+    font-weight: bold;
+}
+h2,h3,h4{
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+}
 p{
     color:white;
-    font-size: 17px;
+    font-size: 16px;
+    opacity: 95%;
 }
 .social-links a{
     color:white;
@@ -51,47 +103,34 @@ p{
     padding: 3px;
 }
 .social-links a:hover{
-    color: aqua;
+    color:rgb(32,178,170);
 }
 .footer{
     background-color:rgb(54, 69, 79);
     height: 88px;
 }
 /*----home section stylings----*/
+.container2{
+    height: 400px;
+}
+.container2 button a{
+    text-decoration: none;
+    color:rgb(32,178,170);
+    font-size: 15px;
+    font-weight: bolder;
+}
+.container2 button a:hover{
+    color: white;
+}
 
     
 /*----projects section stylings----*/
-#projects .project-box{
-    border: 1px solid grey;
-    border-radius: 5px;
-    text-align: center;
-    height: 480px;
-    margin-top: 5px;
-   
-}
-
-
-#projects .project-box img{
-    width: 280px;
-    height: 250px;
-    padding: 21px;
-    border-radius: 30px;
-}
-#projects .project-box h2{
-    color: #fff;
-    font-size: 30px;
-    font-weight: bold;
-}
-#projects .project-box p{
-    color:rgb(192, 192, 192);
-    padding: 8px;
-    font-size: 17px;
-  
-}
-#projects .project-box a{
-   text-decoration: none;
-   font-size: 20px;
-   padding: 10px;
+.projects a{
+    color:rgb(32,178,170);
+    text-decoration: none;
+    font-size: 15px; 
+    margin-bottom: 5px;
+    
 }
 
 /*----about-me section stylings----*/
@@ -102,13 +141,18 @@ p{
     
 }
 #about-me .skill{
-    font-size: 15px;
+    font-size: 14px;
     background: gray;
     border-radius: 5px;
     margin-left: 10px;
     color:purple;
     font-weight:bold;
-    padding: 6px;
+    padding:5px;
     
 }
+#about-me img{
+    width: 250px;
+    height: 250spx;
+}
+
 
